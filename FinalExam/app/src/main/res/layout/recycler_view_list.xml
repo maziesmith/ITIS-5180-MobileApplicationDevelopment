@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="61dp"
+            android:id="@+id/imageViewLargeSrc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewLargeSrc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:id="@+id/textViewNameRV" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewNameRV"
+            android:layout_alignRight="@+id/textViewNameRV"
+            android:layout_alignEnd="@+id/textViewNameRV"
+            android:layout_marginTop="17dp"
+            android:id="@+id/textViewPriceRV" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPriceRV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:id="@+id/imageViewRAtingsRV" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/delete_icon"
+            android:id="@+id/imageViewDeleteRV"
+            android:maxWidth="5sp"
+            android:maxHeight="5sp"
+            android:layout_alignTop="@+id/textViewPriceRV"
+            android:layout_toRightOf="@+id/textViewPriceRV"
+            android:layout_toEndOf="@+id/textViewPriceRV"
+            />
+    </RelativeLayout>
+</LinearLayout>

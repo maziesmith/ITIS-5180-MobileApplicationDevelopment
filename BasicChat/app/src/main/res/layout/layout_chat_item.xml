@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_border"
+    android:layout_margin="5sp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginLeft="5sp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Hey What's up?"
+            android:layout_width="210dp"
+            android:layout_height="47dp"
+            android:id="@+id/textViewChatMessage"
+            android:textSize="20sp"
+            android:gravity="center|left"
+            />
+
+        <ImageView
+            android:layout_width="37dp"
+            android:layout_height="24dp"
+            app:srcCompat="@drawable/comment"
+            android:id="@+id/imageViewChatComment" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/delete"
+            android:id="@+id/imageViewChatDelete"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewChatImage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="5sp">
+
+        <TextView
+            android:text="Rob Allen"
+            android:layout_width="274dp"
+            android:layout_height="47dp"
+            android:id="@+id/textViewChatAuthor"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center|left"
+            />
+
+        <TextView
+            android:text="12 Hours from now"
+            android:layout_width="274dp"
+            android:layout_height="47dp"
+            android:id="@+id/textViewChatTimeFrom"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            />
+    </LinearLayout>
+
+</LinearLayout>

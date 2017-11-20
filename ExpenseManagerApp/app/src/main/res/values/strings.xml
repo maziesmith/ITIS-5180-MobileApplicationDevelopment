@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ExpenseApp</string>
+
+    <string name="title_add_expense">Add an Expense</string>
+    <string name="text_view_expense_name">Expense Name</string>
+    <string name="text_view_category">Category</string>
+    <string-array name="spinner_category">
+        <item>Select Category</item>
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Others</item>
+    </string-array>
+    <string name="text_view_amount">Amount</string>
+    <string name="text_view_date">Date</string>
+    <string name="text_view_receipt">Receipt</string>
+
+    <string name="text_view_expense_detail">Expense Detail</string>
+    <string name="text_view_reciept">Reciept</string>
+    <string name="action_add_expense">Add Expense</string>
+
+    <string name="action_select_expense">Select Expense</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+
+	<string name="action_edit_expense">Edit Expense</string>
+    <string name="action_delete_expense">Delete Expense</string>
+    <string name="action_show_expense">Show Expense</string>
+    <string name="action_finish">Finish</string>
+
+	<string name="action_delete">Delete</string>
+    <string name="text_view_name"> Name</string>
+
+    <string name="error_empty_expense_name">Please enter Expense Name</string>
+    <string name="error_empty_category">Please select category</string>
+    <string name="error_empty_amount">Please enter Amount</string>
+    <string name="error_empty_date">Please enter/select Date</string>
+    <string name="error_empty_receipt">Please select Receipt Image</string>
+    <string name="error_empty_reached_first">Reached to First expense</string>
+    <string name="error_empty_reached_last">Reached to Last expense</string>
+    <string name="error_empty_already_first">Already on First expense</string>
+    <string name="error_empty_already_last">Already on Last expense</string>
+</resources>

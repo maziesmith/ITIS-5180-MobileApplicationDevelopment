@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InClass05</string>
+    <string name="keyword_hint">Search Keyword</string>
+    <string name="go">Go</string>
+    <string name="choose">Choose a Keyword</string>
+    <string name="Loading">Loading Dictionary</string>
+    <string name="Loading_photo">Loading Photo</string>
+</resources>

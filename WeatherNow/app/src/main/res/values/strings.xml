@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WeatherNow</string>
+
+    <string name="hint_city">City (i.e. Charlotte) </string>
+    <string name="hint_state">Sate (i.e. NC) </string>
+    <string name="action_submit">Submit</string>
+    <string name="text_lable_no_favorites">There is no city in your Favorites</string>
+
+    <string name="text_view_hourly_data">HOURLY DATA</string>
+    <string name="text_view_current_location">Current Location:&#160;</string>
+    <string name="text_view_current_location_value">%1$s, %2$s&#160;</string>
+    <string name="msg_progress_dialog_loading">Loading Hourly Data</string>
+    <string name="msg_no_matches">No cities match your query</string>
+    <string name="text_view_temperature">%s\u00B0F</string>
+    <string name="text_view_max_temp"> Max Temperature: </string>
+    <string name="text_view_min_temp"> Min Temperature: </string>
+    <string name="text_view_feels"> Feels Like: </string>
+    <string name="text_view_humidity"> Humidity: </string>
+    <string name="text_view_dewpoint"> Dewpoint: </string>
+    <string name="text_view_pressure"> Pressure: </string>
+    <string name="text_view_clouds"> Clouds: </string>
+    <string name="text_view_winds"> Winds: </string>
+
+    <string name="msg_added_to_favourite">Added to Favorites</string>
+    <string name="msg_updated_favourite">Updated Favorites Record</string>
+    
+    <string name="text_view_updated_on">Updated on: %s</string>
+    <string name="text_view_favorite">Favorites</string>
+    <string name="err_msg_no_internet">Check your internet connection.</string>
+    <string name="err_msg_select_city_state">Please insert City and State.</string>
+</resources>

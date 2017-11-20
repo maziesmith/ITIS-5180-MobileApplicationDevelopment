@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">In Class Assgn 03</string>
+    <string name="HntEdtTxtName">Name</string>
+    <string name="HntEdtTxtEmail">Email</string>
+    <string name="lblTxtViewDepartment">Department: </string>
+    <string name="lblRdBtnSIS">SIS</string>
+    <string name="lblRdBtnCS">CS</string>
+    <string name="lblRdBtnBIO">BIO</string>
+    <string name="lblRdBtnOthers">Others</string>
+    <string name="lblTxtViewCurrentMood">Your Current Mood: </string>
+    <string name="lblBtnSubmit">Submit</string>
+
+    <string name="lblTxtViewStdInfo">Student Information</string>
+    <string name="lblTxtViewName">Name: </string>
+    <string name="lblTxtViewEmail">Email: </string>
+    <string name="lblTxtViewMood">Mood: </string>
+
+    <string name="lblTxtEdtStdInfo">Edit Information</string>
+
+    <string name="lblBtnSave">Save</string>
+    <string name="errInvalidEmail">Please enter a valid Email Address.</string>
+    <string name="errMsgEmptyName">Please enter Name</string>
+    <string name="errMsgEmptyEmail">Please enter Email Address</string>
+</resources>

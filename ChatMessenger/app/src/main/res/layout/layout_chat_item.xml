@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:background="@drawable/rounded_corner_border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_chat_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Hey What's up?"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image_view_chat_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/text_view_user_name"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight=".5"
+            android:gravity="left"
+            android:text="User Name"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_view_time_from_now"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight=".45"
+            android:gravity="center"
+            android:text="12 Hours from now"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/image_view_delete_message"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight=".05"
+            app:srcCompat="@drawable/delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
